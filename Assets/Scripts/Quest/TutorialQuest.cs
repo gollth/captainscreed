@@ -34,6 +34,8 @@ public class TutorialQuest : Quest {
 			originalKey = questInMenu.key;
 			questInMenu.key += ".fail";
 			questInMenu.SyncKeyAndText();
+			questInMenu.transform.Find ("false").GetComponent<Image>().enabled = false;	// cannot "loose" this...
+			menu.transform.Find("accuracy").gameObject.SetActive(false);
 		});
 	}
 

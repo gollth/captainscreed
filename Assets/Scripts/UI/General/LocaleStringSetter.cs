@@ -15,7 +15,8 @@ public class LocaleStringSetter : MonoBehaviour {
 
 
 	public string Original { get; private set; }
-	
+	public int Lines { get { return text.text.Split ('\n').Length; } }
+
 	public Text text;
     object[] cache;
 
