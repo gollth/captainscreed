@@ -144,17 +144,24 @@
 		<value>Wir sind soeben in Graubarts Gewässer eingedrungen. Haltet die Augen auf.</value>
 	</data>
 	<data name="game.bubble.quest.00" xml:space="preserve">
-		<value>Willkommen an Bord meines Schiffes, Matrose. Ans Steuer mit euch und nehmt Kurs auf die Fässer vor uns!</value>
+		<value>Willkommen an Bord meines Schiffes,
+Matrose. Ans Steuer mit euch und
+nehmt Kurs auf die Fässer vor uns!</value>
 	</data>
 	<data name="game.bubble.quest.00.cross" xml:space="preserve">
-		<value>Was macht ihr denn?! Wir können doch nicht direkt gegen den Wind fahren. 
-Holt die Schoten dicht und kreuzt bis zur nächsten Tonne</value>
+		<value>Was macht ihr denn?! Wir können doch 
+nicht direkt gegen den Wind fahren.
+Holt die Schoten dicht und kreuzt bis
+zur nächsten Tonne</value>
 	</data>
 	<data name="game.bubble.quest.00.cross.ok" xml:space="preserve">
-		<value>Sehr gut, nun hart Steuerbord zum nächsten Fass!</value>
+		<value>Sehr gut, nun hart Steuerbord
+zum nächsten Fass!</value>
 	</data>
 	<data name="game.bubble.quest.00.fight" xml:space="preserve">
-		<value>Oh nein ein Riesenfass. An die Kanonen Matrose, schickt es auf den Grund des Meeres!</value>
+		<value>Oh nein, ein Riesenfass. An die
+Kanonen Matrose, schickt es 
+auf den Grund des Meeres!</value>
 	</data>
 	<data name="game.bubble.quest.00.ok" xml:space="preserve">
 		<value>Aye, gar nicht schlecht für den Anfang...</value>

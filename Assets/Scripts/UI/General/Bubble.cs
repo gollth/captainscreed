@@ -15,6 +15,8 @@ public class Bubble : MonoBehaviour, IPointerClickHandler {
 		var setter = bubble.GetComponentInChildren<LocaleStringSetter> ();
 		setter.key = key;
 		setter.SyncKeyAndText ();
+		var wave = bubble.GetComponentInChildren<Wave>().transform as RectTransform;
+		wave.SetHeight(CalcHeight(setter.Lines));
 		var b = bubble.GetComponent<Bubble> ();
 		if (lastBubble != null) lastBubble.Hide ();
 		lastBubble = b;
@@ -31,6 +33,8 @@ public class Bubble : MonoBehaviour, IPointerClickHandler {
 		return b;
 		
 	}
+
+	static float CalcHeight (int n) { return 62.5f * n; }
 	#endregion
 
 	LocaleStringSetter setter;
@@ -39,11 +43,8 @@ public class Bubble : MonoBehaviour, IPointerClickHandler {
 	void Start () {	
 		setter = GetComponentInChildren<LocaleStringSetter> ();
 		setter.SyncKeyAndText ();
-
 		mover = GetComponent<ScreenMover> ();
-
 		Show ();
-
 	}
 
 
