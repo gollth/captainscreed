@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="backboard" xml:space="preserve">
+		<value>Port Side</value>
+	</data>
+	<data name="crownest" xml:space="preserve">
+		<value>Crow Nest</value>
+	</data>
+	<data name="decimal" xml:space="preserve">
+		<value>{0:F1}</value>
+	</data>
+	<data name="game.bubble.boss.03.in" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.boss.03.out" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.boss.03.spot" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.boss.06.in" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.boss.06.out" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.boss.06.spot" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.00" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.00.cross" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.00.cross.ok" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.00.fight" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.00.ok" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.01" xml:space="preserve">
+		<value>Captain, we need to destroy all hostile ships in this area!</value>
+	</data>
+	<data name="game.bubble.quest.01.ok" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.02" xml:space="preserve">
+		<value>Incoming enemy Ship from astern, Captain!</value>
+	</data>
+	<data name="game.bubble.quest.02.ok" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.03" xml:space="preserve">
+		<value>Sir, we heard rumors, that Captain Whitebeard is lingering in this sector...</value>
+	</data>
+	<data name="game.bubble.quest.04" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.04.ok" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.05" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.05.ok" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.06" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.07" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.07.ok" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.07.spot" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.08" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.quest.08.ok" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.crew.reload" xml:space="preserve">
+		<value>"Reload Six Pounders"</value>
+	</data>
+	<data name="game.crew.repair" xml:space="preserve">
+		<value>"Bail Water"</value>
+	</data>
+	<data name="game.crew.thrust" xml:space="preserve">
+		<value>"Anchors Aweigh"</value>
+	</data>
+	<data name="game.gold.hold" xml:space="preserve">
+		<value>+{0}</value>
+	</data>
+	<data name="game.loading.attenuationfilter" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.loading.borderfilter" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.loading.contrastfilter" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.loading.decimationfilter" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.loading.edgedetector" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.loading.imagefilter" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.loading.invertfilter" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.loading.noisefilter" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.loading.polygoncolliderfilter" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.menu.accuracy" xml:space="preserve">
+		<value>Accuracy</value>
+	</data>
+	<data name="game.menu.continue" xml:space="preserve">
+		<value>Continue</value>
+	</data>
+	<data name="game.menu.home" xml:space="preserve">
+		<value>homeport</value>
+	</data>
+	<data name="game.menu.lost" xml:space="preserve">
+		<value>You have been destroyed</value>
+	</data>
+	<data name="game.menu.nextlevel" xml:space="preserve">
+		<value>Next Realm</value>
+	</data>
+	<data name="game.menu.pause" xml:space="preserve">
+		<value>Pause</value>
+	</data>
+	<data name="game.menu.quest" xml:space="preserve">
+		<value>Quest</value>
+	</data>
+	<data name="game.menu.quest.cleaner" xml:space="preserve">
+		<value>{0} of {1} ships destroyed</value>
+	</data>
+	<data name="game.menu.quest.discover" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.menu.quest.greed" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.menu.quest.tutorial.pass" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.menu.restart" xml:space="preserve">
+		<value>Try again</value>
+	</data>
+	<data name="game.menu.stop" xml:space="preserve">
+		<value>Hoist White Flagg</value>
+	</data>
+	<data name="game.menu.won" xml:space="preserve">
+		<value>You were victorious</value>
+	</data>
+	<data name="number" xml:space="preserve">
+		<value>{0}</value>
+	</data>
+	<data name="percentage" xml:space="preserve">
+		<value>{0:P0}</value>
+	</data>
+	<data name="ship.1.vessel" xml:space="preserve">
+		<value>Vessel</value>
+	</data>
+	<data name="ship.2.frigate" xml:space="preserve">
+		<value>Frigate</value>
+	</data>
+	<data name="ship.3.destroyer" xml:space="preserve">
+		<value>Destroyer</value>
+	</data>
+	<data name="ship.4.cruiser" xml:space="preserve">
+		<value>Cruiser</value>
+	</data>
+	<data name="ship.5.battleship" xml:space="preserve">
+		<value>Battleship</value>
+	</data>
+	<data name="starboard" xml:space="preserve">
+		<value>Starboard</value>
+	</data>
+	<data name="title.campaign" xml:space="preserve">
+		<value />
+	</data>
+	<data name="title.campaign.details.bay.A" xml:space="preserve">
+		<value />
+	</data>
+	<data name="title.campaign.details.bay.A.description" xml:space="preserve">
+		<value />
+	</data>
+	<data name="title.campaign.details.bay.B" xml:space="preserve">
+		<value />
+	</data>
+	<data name="title.campaign.details.bay.B.description" xml:space="preserve">
+		<value />
+	</data>
+	<data name="title.campaign.details.fight" xml:space="preserve">
+		<value />
+	</data>
+	<data name="title.campaign.details.quest.cleaner" xml:space="preserve">
+		<value />
+	</data>
+	<data name="title.campaign.details.quest.discover" xml:space="preserve">
+		<value />
+	</data>
+	<data name="title.campaign.details.quest.greed" xml:space="preserve">
+		<value />
+	</data>
+	<data name="title.campaign.details.quest.tutorial" xml:space="preserve">
+		<value />
+	</data>
+	<data name="title.upgrades" xml:space="preserve">
+		<value>Shipyard</value>
+	</data>
+	<data name="title.upgrades.bubble" xml:space="preserve">
+		<value>Concratulation Captain!
+You're now commanding a {0}</value>
+	</data>
+	<data name="title.upgrades.cannons" xml:space="preserve">
+		<value>Cannons</value>
+	</data>
+	<data name="title.upgrades.cannons.description" xml:space="preserve">
+		<value>Amount of six pounders on each side</value>
+	</data>
+	<data name="title.upgrades.crew" xml:space="preserve">
+		<value>Crew</value>
+	</data>
+	<data name="title.upgrades.crew.description" xml:space="preserve">
+		<value>Amount of sailor abord</value>
+	</data>
+	<data name="title.upgrades.gold" xml:space="preserve">
+		<value>Gold</value>
+	</data>
+	<data name="title.upgrades.rigg" xml:space="preserve">
+		<value>Rigg</value>
+	</data>
+	<data name="title.upgrades.rigg.description" xml:space="preserve">
+		<value>Maueverability of the Ship</value>
+	</data>
+	<data name="title.upgrades.ship" xml:space="preserve">
+		<value>Ship</value>
+	</data>
+	<data name="title.upgrades.ship.description" xml:space="preserve">
+		<value>Resistance against hits</value>
+	</data>
+	<data name="game.menu.quest.tutorial.fail" xml:space="preserve">
+		<value />
+	</data>
+</root>

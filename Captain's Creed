@@ -1,0 +1,47 @@
+<NotepadPlus>
+    <Project name="Captain&apos;s Creed">
+        <Folder name="Effects">
+            <File name="Assets\Scripts\Effects\Explosion.cs" />
+            <File name="Assets\Scripts\Effects\FollowPlayer.cs" />
+            <File name="Assets\Scripts\Effects\SceneChanger.cs" />
+        </Folder>
+        <Folder name="Environment">
+            <File name="Assets\Scripts\Environment\Music.cs" />
+            <File name="Assets\Scripts\Environment\Wind.cs" />
+        </Folder>
+        <Folder name="Other">
+            <File name="Assets\Scripts\Other\DestroyIfInvisible.cs" />
+            <File name="Assets\Scripts\Other\Localizer.cs" />
+            <File name="Assets\Scripts\Other\Persistent.cs" />
+            <File name="Assets\Scripts\Other\PriorityQueue.cs" />
+            <File name="Assets\Scripts\Other\Util.cs" />
+        </Folder>
+        <Folder name="Ship">
+            <File name="Assets\Scripts\Ship\AICaptain.cs" />
+            <File name="Assets\Scripts\Ship\Cannonball.cs" />
+            <File name="Assets\Scripts\Ship\Cannons.cs" />
+            <File name="Assets\Scripts\Ship\Port.cs" />
+            <File name="Assets\Scripts\Ship\Sail.cs" />
+            <File name="Assets\Scripts\Ship\Ship.cs" />
+            <File name="Assets\Scripts\Ship\ShipYard.cs" />
+            <File name="Assets\Scripts\Ship\Steerman.cs" />
+            <File name="Assets\Scripts\Ship\Wake.cs" />
+        </Folder>
+        <Folder name="UI">
+            <File name="Assets\Scripts\UI\CannonEventTriggerProxy.cs" />
+            <File name="Assets\Scripts\UI\Crew.cs" />
+            <File name="Assets\Scripts\UI\Crownest.cs" />
+            <File name="Assets\Scripts\UI\Extensions.cs" />
+            <File name="Assets\Scripts\UI\Fader.cs" />
+            <File name="Assets\Scripts\UI\Health.cs" />
+            <File name="Assets\Scripts\UI\KeepRotation.cs" />
+            <File name="Assets\Scripts\UI\LocaleStringSetter.cs" />
+            <File name="Assets\Scripts\UI\Menu.cs" />
+            <File name="Assets\Scripts\UI\Mover.cs" />
+            <File name="Assets\Scripts\UI\ReloadIndicator.cs" />
+            <File name="Assets\Scripts\UI\SetAnchorOnStart.cs" />
+            <File name="Assets\Scripts\UI\Statistics.cs" />
+            <File name="Assets\Scripts\UI\Steerwheel.cs" />
+        </Folder>
+    </Project>
+</NotepadPlus>
