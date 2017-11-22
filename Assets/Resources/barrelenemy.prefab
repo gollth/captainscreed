@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 58517471001936342}
   - component: {fileID: 50972143587018478}
   - component: {fileID: 114811760588030694}
+  - component: {fileID: 114237318665447116}
   m_Layer: 0
   m_Name: barrelenemy
   m_TagString: Pirate
@@ -121,7 +122,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1373845627188578}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0000000745058, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5.8010745, y: 5.801073, z: 5.801073}
   m_Children:
@@ -135,7 +136,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1409734934804544}
-  m_LocalRotation: {x: -0, y: -0, z: 0.8882568, w: 0.45934725}
+  m_LocalRotation: {x: -0, y: -0, z: 0.88825685, w: 0.4593472}
   m_LocalPosition: {x: -0.069612704, y: -0.19723883, z: 0}
   m_LocalScale: {x: 2.8447976, y: 2.1940746, z: 2.1940749}
   m_Children: []
@@ -277,6 +278,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect: {fileID: 212635519984369512}
   fill: {fileID: 212642518851393386}
+--- !u!114 &114237318665447116
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1393309263875368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68d47a957e023fc46ae7a293a290d843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quest: 2
+  amount: 10
+  discoverSound: {fileID: 0}
+  spread: 1
+  randomness: 1
 --- !u!114 &114657718848240896
 MonoBehaviour:
   m_ObjectHideFlags: 1
