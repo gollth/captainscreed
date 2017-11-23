@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Island
+  - Particles
+  - Wind
+  - Target
+  - Cannonball
+  - Fader
+  - Pirate
+  - Goldpot
+  - Menu
+  - Cockpit
+  - UI
+  - Music
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Island
+  - Coin
+  - 3D
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1239120525
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ship
+    uniqueID: 2569969293
+    locked: 0
+  - name: Cannon
+    uniqueID: 4151505829
+    locked: 0
+  - name: Sail
+    uniqueID: 3816039289
+    locked: 0
+  - name: Foreground
+    uniqueID: 3328725949
+    locked: 0

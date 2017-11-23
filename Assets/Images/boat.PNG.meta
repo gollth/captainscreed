@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: f62d994475909a2458dccd8c3c30414c
+timeCreated: 1457002390
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: boat_body
+    21300002: boat_sail_front
+    21300004: boat_sail_great
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: boat_body
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 199
+        height: 935
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.38935667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93.49998, y: -180.0485}
+        - {x: 98.49998, y: -146.0485}
+        - {x: 98.49998, y: -66.04849}
+        - {x: 96.49998, y: -48.048492}
+        - {x: 86.49998, y: 32.951508}
+        - {x: 71.49998, y: 116.95151}
+        - {x: 50.499977, y: 219.9515}
+        - {x: 25.499977, y: 306.9515}
+        - {x: 20.499977, y: 324.9515}
+        - {x: 10.499977, y: 346.9515}
+        - {x: 8.499977, y: 457.9515}
+        - {x: 7.499977, y: 491.9515}
+        - {x: 5.499977, y: 533.95154}
+        - {x: 8.499977, y: 568.95154}
+        - {x: 8.499977, y: 570.95154}
+        - {x: -7.500023, y: 570.95154}
+        - {x: -7.500023, y: 568.95154}
+        - {x: -5.500023, y: 554.95154}
+        - {x: -7.500023, y: 527.95154}
+        - {x: -11.500023, y: 474.9515}
+        - {x: -13.500023, y: 415.9515}
+        - {x: -12.500023, y: 344.9515}
+        - {x: -26.500023, y: 317.9515}
+        - {x: -32.500023, y: 297.9515}
+        - {x: -49.500023, y: 243.9515}
+        - {x: -62.500023, y: 183.9515}
+        - {x: -70.50002, y: 142.9515}
+        - {x: -80.50002, y: 82.95151}
+        - {x: -87.50002, y: 32.951508}
+        - {x: -94.50002, y: -31.048492}
+        - {x: -97.50002, y: -59.048492}
+        - {x: -97.50002, y: -144.0485}
+        - {x: -92.50002, y: -181.0485}
+        - {x: -87.50002, y: -214.0485}
+        - {x: -73.50002, y: -297.0485}
+        - {x: -69.50002, y: -334.0485}
+        - {x: -68.50002, y: -359.0485}
+        - {x: -67.50002, y: -364.0485}
+        - {x: 64.49998, y: -364.0485}
+        - {x: 65.49998, y: -363.0485}
+        - {x: 73.49998, y: -292.0485}
+        - {x: 87.49998, y: -217.0485}
+    - name: boat_sail_front
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 448
+        width: 66
+        height: 156
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 78}
+        - {x: 3, y: -78}
+        - {x: 40, y: -78}
+        - {x: 64, y: -53}
+        - {x: 64, y: 47}
+        - {x: 47, y: 78}
+    - name: boat_sail_great
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 23
+        width: 101
+        height: 341
+      alignment: 9
+      pivot: {x: 0.17071201, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67.75809, y: 170.5}
+        - {x: 11.758087, y: 170.5}
+        - {x: -17.241913, y: 155.5}
+        - {x: -17.241913, y: 128.5}
+        - {x: -0.24191284, y: -7.5}
+        - {x: -17.241913, y: -110.5}
+        - {x: -17.241913, y: -152.5}
+        - {x: 15.758087, y: -169.5}
+        - {x: 60.758087, y: -169.5}
+        - {x: 66.75809, y: -159.5}
+        - {x: 81.75809, y: -64.5}
+        - {x: 81.75809, y: 60.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

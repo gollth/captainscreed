@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 400d85ce2f3e44f78b72247bfe78fbfb
+timeCreated: 1458836071
+licenseType: Free
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder:
+    SmartLocalization.LanguageManager: -120
+  isPreloaded: 0
+  platformData:
+    Any:
+      enabled: 1
+      settings: {}
+    Editor:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+    WindowsStoreApps:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
