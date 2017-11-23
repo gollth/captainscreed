@@ -28,7 +28,8 @@ public class Bay : MonoBehaviour {
 		details.SyncKeyAndText();
 
 		var check = quest.transform.Find ("true");
-		if (check != null) check.gameObject.SetActive(Level.Number >= Util.GetLevelFromScene(letter));
+
+		if (check != null && Level.Number > 1) check.gameObject.SetActive(Level.Number > Util.GetLevelFromScene(letter));
 
 		this.letter = letter;
 	}

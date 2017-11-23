@@ -13,6 +13,7 @@ public class Loading : MonoBehaviour {
 
 	Generator generator;
 	Fader fader;
+	float targetProgress;
 
 	void OnEnable() {
 		generator = GameObject.FindGameObjectWithTag("Island").GetComponent<Generator>();
@@ -22,6 +23,7 @@ public class Loading : MonoBehaviour {
 		text.text.enabled = true;
 		generator.OnGenerationComplete += OnComplete;
 		Time.timeScale = 0f;
+		targetProgress = 0f;
 	}
 	void OnDisable() {
 		generator.OnGenerationComplete -= OnComplete;
@@ -36,7 +38,9 @@ public class Loading : MonoBehaviour {
 	void OnProgress (float progress, Filter f) {
 		text.key = f.Key;
 		text.SyncKeyAndText();
-		var size = new Vector2(Mathf.Lerp(-Screen.width, 0, progress), 0);
+		targetProgress = Mathf.Lerp(targetProgress, progress, Time.unscaledDeltaTime);
+		var size = new Vector2(Mathf.Lerp(-Screen.width, 0, targetProgress), 0);
+
 		waves.sizeDelta = size;
 		waves.offsetMax = size;
 	}
