@@ -343,6 +343,15 @@ Kugeln verschossen</value>
 
 Aber diesmal einem, der auch zurückfeuert...</value>
 	</data>
+	<data name="title.campaign.details.bay.C" xml:space="preserve">
+		<value>Crewflüchter-Bucht</value>
+	</data>
+	<data name="title.campaign.details.bay.C.description" xml:space="preserve">
+		<value>Nachdem ihr das letzte Piratenschiff mit einer solchen Leichtigkeit ver-
+senkt habt, bittet euch ein wichtiger Kommodore um seine Hilfe.
+
+Im Gegenzug dürft ihr deren Beute behalten...</value>
+	</data>
 	<data name="title.campaign.details.fight" xml:space="preserve">
 		<value>Ins Gefecht!</value>
 	</data>

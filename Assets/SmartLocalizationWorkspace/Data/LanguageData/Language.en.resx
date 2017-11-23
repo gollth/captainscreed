@@ -326,6 +326,12 @@
 	<data name="title.campaign.details.bay.B.description" xml:space="preserve">
 		<value />
 	</data>
+	<data name="title.campaign.details.bay.C.description" xml:space="preserve">
+		<value />
+	</data>
+	<data name="title.campaign.details.bay.C" xml:space="preserve">
+		<value />
+	</data>
 	<data name="title.campaign.details.fight" xml:space="preserve">
 		<value />
 	</data>
