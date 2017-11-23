@@ -172,12 +172,6 @@ auf den Grund des Meeres!</value>
 	<data name="game.bubble.quest.01.ok" xml:space="preserve">
 		<value>Aye Kapitän, diese Gefilde sind nun sicher vor diesem Halumpenpack.</value>
 	</data>
-	<data name="game.bubble.quest.02" xml:space="preserve">
-		<value>Piraten achtern von uns gesichtet, Kapitän!</value>
-	</data>
-	<data name="game.bubble.quest.02.ok" xml:space="preserve">
-		<value>Gute Arbeit, Kapitän.</value>
-	</data>
 	<data name="game.bubble.quest.03" xml:space="preserve">
 		<value>Sir, Gerüchten zufolge lungert Rotbart der Pirat in diesen Gewässern herum...</value>
 	</data>
@@ -211,6 +205,15 @@ Gut gemacht.</value>
 	</data>
 	<data name="game.bubble.quest.08.ok" xml:space="preserve">
 		<value>Schnell weg aus diesem Atoll</value>
+	</data>
+	<data name="game.bubble.quest.C" xml:space="preserve">
+		<value>Alle Mann an Deck. 
+Schon wieder Piraten in Sicht</value>
+	</data>
+	<data name="game.bubble.quest.C.ok" xml:space="preserve">
+		<value>Ausgezeichnet! 
+Nicht mehr lange und Ihr habt euch 
+eine Beförderung verdient...</value>
 	</data>
 	<data name="game.crew.reload" xml:space="preserve">
 		<value>Sechspfünder laden</value>
