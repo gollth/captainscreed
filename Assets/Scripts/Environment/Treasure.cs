@@ -42,7 +42,15 @@ public class Treasure : MonoBehaviour {
 	void Discover () {
 		if (discovered) return;	// ... already discovered
 		if (discoverSound != null) AudioSource.PlayClipAtPoint (discoverSound, this.transform.position);
-		
+
+		var wake = transform.GetComponentInChildren<ParticleSystem>();
+		if (wake != null) {
+			var scale = wake.transform.localScale;
+			wake.transform.SetParent(particles, worldPositionStays: true);
+			wake.transform.localScale = scale;
+			wake.Pause();
+		}
+
 		// Create x coins pointing radially out
 		var strength = spread;
 		for (var i = 0; i < amount; i++) {
@@ -72,14 +80,14 @@ public class Treasure : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D collision) {
 		if (!quest.Equals (Quest.Ram)) return;
-		if (!collision.collider.CompareTag ("Player")) return;
+		if (!collision.collider.CompareTag ("Player") && !collision.collider.CompareTag("Cannonball")) return;
 		this.Discover ();
 	}
 
 
 	void OnTriggerEnter2D(Collider2D other) {
 		if (!quest.Equals (Quest.Reach)) return;
-		if (!other.CompareTag ("Player")) return;
+		if (!other.CompareTag ("Player") && !other.CompareTag("Cannonball")) return;
 		this.Discover ();
 		Destroy (this.gameObject);
 	}
