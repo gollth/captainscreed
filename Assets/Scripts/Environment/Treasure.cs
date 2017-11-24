@@ -16,9 +16,10 @@ public class Treasure : MonoBehaviour {
 	#endregion
 
 	#region Statics
+	static List<string> AllInThisLevel = new List<string>();
 	const string TREASURE_KEY = "treasure-{0}-{1}";
-	static List<int> AllInThisLevel = new List<int>();
 	static readonly Dictionary<string, int> total = new Dictionary<string, int> {
+		{ "Title", 0 },
 		{ "A" , 0 },
 		{ "B" , 0 },
 		{ "C" , 2 }
@@ -27,18 +28,16 @@ public class Treasure : MonoBehaviour {
 		if (!total.ContainsKey(level)) return -1;
 		else return total[level];
 	}
-	public static IEnumerable<int> Lifted (string level) { 
+	public static IEnumerable<string> Lifted (string level=null) {
+		if (level == null) level = SceneManager.GetActiveScene().name; 
 		for (int x = 1; x <= total[level]; x++) {
 			if (!PlayerPrefs.HasKey(string.Format(TREASURE_KEY, level, x))) continue;
-			var alreadylifted = PlayerPrefs.GetInt(string.Format(TREASURE_KEY, level, x));
-			var result = AllInThisLevel.Find(available => available == alreadylifted);
-			yield return result;
+			yield return PlayerPrefs.GetString(string.Format(TREASURE_KEY, level, x));
 		}
 		yield break;
 	}
-	protected static void Lift (string level, int treasureID) { 
-
-		PlayerPrefs.SetInt(string.Format(TREASURE_KEY, level, AllInThisLevel.IndexOf(treasureID)+1), treasureID);
+	protected static void Lift (string level, string name) { 
+		PlayerPrefs.SetString(string.Format(TREASURE_KEY, level, AllInThisLevel.IndexOf(name)+1), name);
 		PlayerPrefs.Save ();
 	}
 	#endregion
@@ -63,11 +62,16 @@ public class Treasure : MonoBehaviour {
 	private GameObject coin;
 	private Transform particles;
 	private bool discovered;
-	private int? pending = null;
+	private string pending;
 	#endregion
 
 	#region Methods
 	void OnEnable () {
+		if (Lifted(SceneManager.GetActiveScene().name).Contains(this.name)) {
+			this.gameObject.SetActive(false);	// we already found this treasure, thats why we ignore it
+			return;
+		}
+		pending = null;
 		coin = Resources.Load ("UI/coin") as GameObject;
 		particles = GameObject.FindGameObjectWithTag ("Particles").transform;
 		SceneManager.sceneLoaded += OnLevelLoad;
@@ -76,7 +80,9 @@ public class Treasure : MonoBehaviour {
 	}
 
 	void Start() {
-		if (GetComponent<AICaptain>() == null) AllInThisLevel.Add(this.GetInstanceID());
+		if (GetComponent<AICaptain>() != null) return;
+		AllInThisLevel.Add(this.name);
+		AllInThisLevel.Sort();
 	}
 
 	void OnDisable() {
@@ -110,7 +116,7 @@ public class Treasure : MonoBehaviour {
 			c.GetComponent<Rigidbody2D> ().AddRelativeForce (impulse, ForceMode2D.Impulse);
 		}
 		discovered = true;	// means that treasure cannot be discovered again
-		if (GetComponent<AICaptain>() == null){ print("Pending " + name); pending = this.GetInstanceID(); }	// Findable treasure are those, which do not drive actively ;)
+		if (GetComponent<AICaptain>() == null) pending = this.name;	// Findable treasure are those, which do not drive actively ;)
 		if (OnDiscover != null) OnDiscover(amount, quest);
 
 	}
@@ -140,7 +146,7 @@ public class Treasure : MonoBehaviour {
 	}
 
 	void OnFulfilled(List<Quest> quests) {
-		if (pending.HasValue) Lift(SceneManager.GetActiveScene().name, pending.Value);
+		if (pending != null) Lift(SceneManager.GetActiveScene().name, pending);
 	}
 
 	void OnLevelLoad (Scene scene, LoadSceneMode mode) {
