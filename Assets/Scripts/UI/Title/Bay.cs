@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System.Linq;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,9 +8,13 @@ using UnityEngine.Events;
 public class Bay : MonoBehaviour {
 
 	[SerializeField] string keyPrefix = "title.campaign.details";
+	[Header("Quest")]
 	[SerializeField] LocaleStringSetter title;
 	[SerializeField] LocaleStringSetter details;
 	[SerializeField] LocaleStringSetter quest;
+	[Header("Treasures")]
+	[SerializeField] LocaleStringSetter treasures;
+
 	[SerializeField] Button fight; 
 
 	string letter = null;
@@ -28,8 +33,10 @@ public class Bay : MonoBehaviour {
 		details.SyncKeyAndText();
 
 		var check = quest.transform.Find ("true");
-
 		if (check != null && Level.Number > 1) check.gameObject.SetActive(Level.Number > Util.GetLevelFromScene(letter));
+
+		treasures.SetValues(Treasure.Lifted(letter).Count(), Treasure.Total(letter));
+		treasures.transform.parent.gameObject.SetActive(Treasure.Total(letter) > 0);
 
 		this.letter = letter;
 	}

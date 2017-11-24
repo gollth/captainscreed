@@ -164,6 +164,12 @@
 	<data name="game.bubble.quest.01.ok" xml:space="preserve">
 		<value />
 	</data>
+	<data name="game.bubble.quest.02" xml:space="preserve">
+		<value>Incoming enemy Ship from astern, Captain!</value>
+	</data>
+	<data name="game.bubble.quest.02.ok" xml:space="preserve">
+		<value />
+	</data>
 	<data name="game.bubble.quest.03" xml:space="preserve">
 		<value>Sir, we heard rumors, that Captain Whitebeard is lingering in this sector...</value>
 	</data>
@@ -195,12 +201,6 @@
 		<value />
 	</data>
 	<data name="game.bubble.quest.08.ok" xml:space="preserve">
-		<value />
-	</data>
-	<data name="game.bubble.quest.C" xml:space="preserve">
-		<value>Incoming enemy Ship from astern, Captain!</value>
-	</data>
-	<data name="game.bubble.quest.C.ok" xml:space="preserve">
 		<value />
 	</data>
 	<data name="game.crew.reload" xml:space="preserve">
@@ -326,12 +326,6 @@
 	<data name="title.campaign.details.bay.B.description" xml:space="preserve">
 		<value />
 	</data>
-	<data name="title.campaign.details.bay.C.description" xml:space="preserve">
-		<value />
-	</data>
-	<data name="title.campaign.details.bay.C" xml:space="preserve">
-		<value />
-	</data>
 	<data name="title.campaign.details.fight" xml:space="preserve">
 		<value />
 	</data>
@@ -380,5 +374,11 @@ You're now commanding a {0}</value>
 	</data>
 	<data name="title.upgrades.ship.description" xml:space="preserve">
 		<value>Resistance against hits</value>
+	</data>
+	<data name="treasures" xml:space="preserve">
+		<value />
+	</data>
+	<data name="title.campaign.details.treasures" xml:space="preserve">
+		<value />
 	</data>
 </root>

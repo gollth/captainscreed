@@ -28,7 +28,7 @@ public class DiscoverQuest : Quest {
 
 
 
-	void OnCheckpointDiscovered (int coins, Treasure.Quest quest) {
+	void OnCheckpointDiscovered (int coins, Treasure.LiftType quest) {
 		alreadyDiscovered += 1;
 		if (alreadyDiscovered == checkpoints.Length) {
 			IsFulfilled = true;
