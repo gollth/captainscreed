@@ -172,6 +172,12 @@ auf den Grund des Meeres!</value>
 	<data name="game.bubble.quest.01.ok" xml:space="preserve">
 		<value>Aye Kapitän, diese Gefilde sind nun sicher vor diesem Halumpenpack.</value>
 	</data>
+	<data name="game.bubble.quest.02" xml:space="preserve">
+		<value>Piraten achtern von uns gesichtet, Kapitän!</value>
+	</data>
+	<data name="game.bubble.quest.02.ok" xml:space="preserve">
+		<value>Gute Arbeit, Kapitän.</value>
+	</data>
 	<data name="game.bubble.quest.03" xml:space="preserve">
 		<value>Sir, Gerüchten zufolge lungert Rotbart der Pirat in diesen Gewässern herum...</value>
 	</data>
@@ -205,15 +211,6 @@ Gut gemacht.</value>
 	</data>
 	<data name="game.bubble.quest.08.ok" xml:space="preserve">
 		<value>Schnell weg aus diesem Atoll</value>
-	</data>
-	<data name="game.bubble.quest.C" xml:space="preserve">
-		<value>Alle Mann an Deck. 
-Schon wieder Piraten in Sicht</value>
-	</data>
-	<data name="game.bubble.quest.C.ok" xml:space="preserve">
-		<value>Ausgezeichnet! 
-Nicht mehr lange und Ihr habt euch 
-eine Beförderung verdient...</value>
 	</data>
 	<data name="game.crew.reload" xml:space="preserve">
 		<value>Sechspfünder laden</value>
@@ -343,15 +340,6 @@ Kugeln verschossen</value>
 
 Aber diesmal einem, der auch zurückfeuert...</value>
 	</data>
-	<data name="title.campaign.details.bay.C" xml:space="preserve">
-		<value>Crewflüchter-Bucht</value>
-	</data>
-	<data name="title.campaign.details.bay.C.description" xml:space="preserve">
-		<value>Nachdem ihr das letzte Piratenschiff mit einer solchen Leichtigkeit ver-
-senkt habt, bittet euch ein wichtiger Kommodore um seine Hilfe.
-
-Im Gegenzug dürft ihr deren Beute behalten...</value>
-	</data>
 	<data name="title.campaign.details.fight" xml:space="preserve">
 		<value>Ins Gefecht!</value>
 	</data>
@@ -366,6 +354,9 @@ Im Gegenzug dürft ihr deren Beute behalten...</value>
 	</data>
 	<data name="title.campaign.details.quest.tutorial" xml:space="preserve">
 		<value>Lernt euer neues Schiff zu manövrieren</value>
+	</data>
+	<data name="title.campaign.details.treasures" xml:space="preserve">
+		<value>{0} von {1} Schätzen gehoben</value>
 	</data>
 	<data name="title.upgrades" xml:space="preserve">
 		<value>Werft</value>
@@ -400,5 +391,8 @@ Ihr befehligt nun: {0}</value>
 	</data>
 	<data name="title.upgrades.ship.description" xml:space="preserve">
 		<value>Erhöht Widerstands- kraft gegen Treffer, verringert Geschwin- digkeit um 10%</value>
+	</data>
+	<data name="treasures" xml:space="preserve">
+		<value>Schätze</value>
 	</data>
 </root>
