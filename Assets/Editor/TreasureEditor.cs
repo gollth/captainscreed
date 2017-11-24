@@ -9,12 +9,12 @@ public class TreasureEditor : Editor {
 		var t = target as Treasure;
 		DrawDefaultInspector ();
 
-		if (t.quest.Equals (Treasure.Quest.Ram) || t.quest.Equals (Treasure.Quest.Reach)) {
+		if (t.quest.Equals (Treasure.LiftType.Ram) || t.quest.Equals (Treasure.LiftType.Reach)) {
 
 			var col = t.GetComponent<Collider2D> ();
 			if (col == null) {
 				EditorGUILayout.HelpBox ("This GameObject has no collider attached", MessageType.Warning);
-			} else if (t.quest.Equals (Treasure.Quest.Reach) && !col.isTrigger) {
+			} else if (t.quest.Equals (Treasure.LiftType.Reach) && !col.isTrigger) {
 				EditorGUILayout.HelpBox ("The " + col.GetType().ToString() + " is not a trigger", MessageType.Info); 
 			}
 		}
