@@ -13,7 +13,8 @@ public abstract class Quest : MonoBehaviour {
 	public static readonly Dictionary<string, Type> Levels = new Dictionary<string, Type> {
 		{ "A",  typeof(TutorialQuest) },
 		{ "B",  typeof(CleanerQuest) },
-		{ "C",  typeof(CleanerQuest) }
+		{ "C",  typeof(CleanerQuest) },
+		{ "D",  typeof(CleanerQuest) },
 	};
 
 	public string keyPrefix = "game.menu.quest";

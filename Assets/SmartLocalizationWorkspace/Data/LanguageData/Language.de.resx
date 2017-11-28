@@ -395,4 +395,7 @@ Ihr befehligt nun: {0}</value>
 	<data name="treasures" xml:space="preserve">
 		<value>Schätze</value>
 	</data>
+	<data name="game.bubble.quest.04.ship2" xml:space="preserve">
+		<value />
+	</data>
 </root>
