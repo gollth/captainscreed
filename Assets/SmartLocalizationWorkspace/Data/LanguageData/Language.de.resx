@@ -181,13 +181,6 @@ auf den Grund des Meeres!</value>
 	<data name="game.bubble.quest.03" xml:space="preserve">
 		<value>Sir, Gerüchten zufolge lungert Rotbart der Pirat in diesen Gewässern herum...</value>
 	</data>
-	<data name="game.bubble.quest.04" xml:space="preserve">
-		<value>Kapitän, der Kampf gegen Rotbart hat uns fast unsere gesamte Munition gekostet</value>
-	</data>
-	<data name="game.bubble.quest.04.ok" xml:space="preserve">
-		<value>Puh, das war knapp! 
-Gut gemacht.</value>
-	</data>
 	<data name="game.bubble.quest.05" xml:space="preserve">
 		<value>Beim Klabautermann! Wir sind umzingelt</value>
 	</data>
@@ -211,6 +204,13 @@ Gut gemacht.</value>
 	</data>
 	<data name="game.bubble.quest.08.ok" xml:space="preserve">
 		<value>Schnell weg aus diesem Atoll</value>
+	</data>
+	<data name="game.bubble.quest.D" xml:space="preserve">
+		<value>Sir, wir sind umzingelt!</value>
+	</data>
+	<data name="game.bubble.quest.D.ok" xml:space="preserve">
+		<value>Puh, das war knapp! 
+Gut gemacht, Kapitän.</value>
 	</data>
 	<data name="game.crew.reload" xml:space="preserve">
 		<value>Sechspfünder laden</value>
@@ -340,6 +340,21 @@ Kugeln verschossen</value>
 
 Aber diesmal einem, der auch zurückfeuert...</value>
 	</data>
+	<data name="title.campaign.details.bay.C" xml:space="preserve">
+		<value />
+	</data>
+	<data name="title.campaign.details.bay.C.description" xml:space="preserve">
+		<value>Nachdem ihr das letzte Piratenschiff mit einer solchen Leichtigkeit ver-
+senkt habt, bittet euch ein wichtiger Kommodore um seine Hilfe.
+
+Im Gegenzug dürft ihr deren Beute behalten...</value>
+	</data>
+	<data name="title.campaign.details.bay.D" xml:space="preserve">
+		<value>Deckschrubber-Bucht</value>
+	</data>
+	<data name="title.campaign.details.bay.D.description" xml:space="preserve">
+		<value />
+	</data>
 	<data name="title.campaign.details.fight" xml:space="preserve">
 		<value>Ins Gefecht!</value>
 	</data>
@@ -394,8 +409,5 @@ Ihr befehligt nun: {0}</value>
 	</data>
 	<data name="treasures" xml:space="preserve">
 		<value>Schätze</value>
-	</data>
-	<data name="game.bubble.quest.04.ship2" xml:space="preserve">
-		<value />
 	</data>
 </root>

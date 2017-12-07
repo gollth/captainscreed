@@ -11,6 +11,8 @@ Nomenclature: [GameObject/Component/Property]
 * Choose number of treasure for this level and add entry to [/Treasure/total] 
 * Distribute this amount of treasure accross the level
 * Press Play and check for errors
+* Activate Level Button in "Title" scene & adjust its callback
+* Add "title.campaign.details.bay.###(.description)" key.
 
 
 
