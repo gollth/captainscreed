@@ -14,7 +14,9 @@ public class ExplainCrewMenu : MonoBehaviour {
 		var explainedReloaders = false;
 		var explainedRepairers = false;
 
-		ResourceLoader.WaitFor <Crew> (tag: "Player", callback: crew => {
+		// Don't use generic version, since <Crew> is disabled on player
+		ResourceLoader.WaitFor (tag: "Player", callback: player => {
+			var crew = player.GetComponent<Crew>();
 			var majority = Mathf.RoundToInt (crew.amount * .6f);
 			crew.OnOrder.AddListener(() => {
 
