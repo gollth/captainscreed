@@ -353,7 +353,12 @@ Im Gegenzug dürft ihr deren Beute behalten...</value>
 		<value>Deckschrubber-Bucht</value>
 	</data>
 	<data name="title.campaign.details.bay.D.description" xml:space="preserve">
-		<value />
+		<value>Dank eurem Ruf haben die 
+ersten Matrosen auf eurem 
+Schiff angeheurt. 
+
+Gebt ihnen Befehle und nutzt 
+sie zu eurem Vorteil.</value>
 	</data>
 	<data name="title.campaign.details.fight" xml:space="preserve">
 		<value>Ins Gefecht!</value>
