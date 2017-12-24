@@ -23,3 +23,9 @@ General TODOs
 * Try out new "Camera Zoomer" from 2017.2 (name?) instead of [Camera/PlayerFollower/]
 
 * Change "game.bubble.quest.00" -> "game.bubble.quest.A" for all levels
+
+* Steerwheel middle marker better visible (explanation?)
+
+Tutorial
+* Line between barrels
+* Ideallinie 
