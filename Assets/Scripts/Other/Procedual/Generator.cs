@@ -137,8 +137,7 @@ public class Generator : MonoBehaviour {
 			}
 			if (pipeline.Key == displayName) {
 				Array.Copy(Samples, DebugSamples, resolution * resolution);
-				print("Copying into debugsamples");
-				}
+			}
 			Array.Copy(original, Samples, resolution * resolution);
 		}
 		Working = false;	// all work done =)

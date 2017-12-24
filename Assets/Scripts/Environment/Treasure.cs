@@ -22,7 +22,8 @@ public class Treasure : MonoBehaviour {
 		{ "Title", 0 },
 		{ "A" , 0 },
 		{ "B" , 0 },
-		{ "C" , 2 }
+		{ "C" , 2 },
+		{ "D" , 1 }
 	};
 	public static int Total (string level) {
 		if (!total.ContainsKey(level)) return -1;

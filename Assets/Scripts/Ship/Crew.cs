@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
@@ -19,6 +20,10 @@ public class Crew : MonoBehaviour {
 	public int Thrusters { get; private set; }
 	public int Reloaders { get; private set; }
 	public int Repairers { get; private set; }
+	#endregion
+
+	#region Events
+	public UnityEvent OnOrder = new UnityEvent();
 	#endregion
 
 	#region References
@@ -79,6 +84,8 @@ public class Crew : MonoBehaviour {
 		steuerboard.reloadsPerSecond = reloaders * reloadsPerSailor;
 
 		ship.RingBell (2);
+
+		OnOrder.Invoke();
 	}
 
 

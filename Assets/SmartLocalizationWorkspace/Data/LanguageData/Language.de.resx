@@ -143,6 +143,20 @@
 	<data name="game.bubble.boss.06.spot" xml:space="preserve">
 		<value>Wir sind soeben in Graubarts Gewässer eingedrungen. Haltet die Augen auf.</value>
 	</data>
+	<data name="game.bubble.crew.reloaders" xml:space="preserve">
+		<value>Bemannt die Kanonen, Männer! 
+Ladet so schnell nach wie ihr könnt</value>
+	</data>
+	<data name="game.bubble.crew.repairers" xml:space="preserve">
+		<value>Lasst alles stehen und liegen 
+und flickt das Schiff, bevor 
+es auseinanderfällt!</value>
+	</data>
+	<data name="game.bubble.crew.thrusters" xml:space="preserve">
+		<value>Großbrassen setzten, Schoten 
+dichtholen und Reffe lösen. 
+Holt alles aus Ihr raus!</value>
+	</data>
 	<data name="game.bubble.quest.00" xml:space="preserve">
 		<value>Willkommen an Bord meines Schiffes,
 Matrose. Ans Steuer mit euch und
@@ -181,13 +195,6 @@ auf den Grund des Meeres!</value>
 	<data name="game.bubble.quest.03" xml:space="preserve">
 		<value>Sir, Gerüchten zufolge lungert Rotbart der Pirat in diesen Gewässern herum...</value>
 	</data>
-	<data name="game.bubble.quest.04" xml:space="preserve">
-		<value>Kapitän, der Kampf gegen Rotbart hat uns fast unsere gesamte Munition gekostet</value>
-	</data>
-	<data name="game.bubble.quest.04.ok" xml:space="preserve">
-		<value>Puh, das war knapp! 
-Gut gemacht.</value>
-	</data>
 	<data name="game.bubble.quest.05" xml:space="preserve">
 		<value>Beim Klabautermann! Wir sind umzingelt</value>
 	</data>
@@ -211,6 +218,14 @@ Gut gemacht.</value>
 	</data>
 	<data name="game.bubble.quest.08.ok" xml:space="preserve">
 		<value>Schnell weg aus diesem Atoll</value>
+	</data>
+	<data name="game.bubble.quest.D" xml:space="preserve">
+		<value>Tippt auf euer Schiff und gebt 
+euer Mannschaft Befehle!</value>
+	</data>
+	<data name="game.bubble.quest.D.ok" xml:space="preserve">
+		<value>Puh, das war knapp! 
+Gut gemacht, Kapitän.</value>
 	</data>
 	<data name="game.crew.reload" xml:space="preserve">
 		<value>Sechspfünder laden</value>
@@ -339,6 +354,26 @@ Kugeln verschossen</value>
 		<value>Um zu beweisen, dass ihr in der Lage seit ein Schiff zu kommandieren, müsst ihr euch dem Feind stellen.
 
 Aber diesmal einem, der auch zurückfeuert...</value>
+	</data>
+	<data name="title.campaign.details.bay.C" xml:space="preserve">
+		<value />
+	</data>
+	<data name="title.campaign.details.bay.C.description" xml:space="preserve">
+		<value>Nachdem ihr das letzte Piratenschiff mit einer solchen Leichtigkeit ver-
+senkt habt, bittet euch ein wichtiger Kommodore um seine Hilfe.
+
+Im Gegenzug dürft ihr deren Beute behalten...</value>
+	</data>
+	<data name="title.campaign.details.bay.D" xml:space="preserve">
+		<value>Deckschrubber-Bucht</value>
+	</data>
+	<data name="title.campaign.details.bay.D.description" xml:space="preserve">
+		<value>Dank eurem Ruf haben die 
+ersten Matrosen auf eurem 
+Schiff angeheurt. 
+
+Gebt ihnen Befehle und nutzt 
+sie zu eurem Vorteil.</value>
 	</data>
 	<data name="title.campaign.details.fight" xml:space="preserve">
 		<value>Ins Gefecht!</value>
