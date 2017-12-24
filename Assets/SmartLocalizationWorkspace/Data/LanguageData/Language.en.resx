@@ -326,6 +326,12 @@
 	<data name="title.campaign.details.bay.B.description" xml:space="preserve">
 		<value />
 	</data>
+	<data name="title.campaign.details.bay.C" xml:space="preserve">
+		<value />
+	</data>
+	<data name="title.campaign.details.bay.C.description" xml:space="preserve">
+		<value />
+	</data>
 	<data name="title.campaign.details.bay.D" xml:space="preserve">
 		<value />
 	</data>
@@ -387,10 +393,13 @@ You're now commanding a {0}</value>
 	<data name="treasures" xml:space="preserve">
 		<value />
 	</data>
-	<data name="title.campaign.details.bay.C" xml:space="preserve">
+	<data name="game.bubble.crew.reloaders" xml:space="preserve">
 		<value />
 	</data>
-	<data name="title.campaign.details.bay.C.description" xml:space="preserve">
+	<data name="game.bubble.crew.repairers" xml:space="preserve">
+		<value />
+	</data>
+	<data name="game.bubble.crew.thrusters" xml:space="preserve">
 		<value />
 	</data>
 </root>
