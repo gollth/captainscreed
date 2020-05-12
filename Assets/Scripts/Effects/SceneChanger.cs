@@ -23,7 +23,7 @@ public class SceneChanger : MonoBehaviour {
 	public void StartLevel (string name=null) {
 		if (string.IsNullOrEmpty (name)) name = SceneManager.GetActiveScene().name;
 
-		Fabric.Answers.Answers.LogLevelStart (name);
+		//Fabric.Answers.Answers.LogLevelStart (name);
 		Debug.Log("Starting Scene:" + name);
 		
 		ChangingLevel = true;

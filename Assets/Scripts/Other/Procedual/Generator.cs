@@ -50,7 +50,7 @@ public class Generator : MonoBehaviour {
 	}
 
 	public void Clear(Texture2D newtexture = null) {
-		if (newtexture == null) Tex = new Texture2D (resolution, resolution, TextureFormat.RGBA32, mipmap: false);
+		if (newtexture == null) Tex = new Texture2D (resolution, resolution, TextureFormat.RGBA32, mipChain: false);
 		else Tex = newtexture;
 		Tex.name = "Procedual Texture";
 		Tex.wrapMode = TextureWrapMode.Clamp;

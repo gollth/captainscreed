@@ -14,10 +14,10 @@ public class Crownest : MonoBehaviour {
 			zoomed = value; 
 			targetSize = zoomed ? originalSize * zoomOut : originalSize; 
 			if (!zoomed) { // anymore
-				Fabric.Answers.Answers.LogCustom ("Crownest", new Dictionary<string, object> () {
-					{ "Time", timeInCrownest },
-					{ "Level", manager.Current.name }
-				});
+				//Fabric.Answers.Answers.LogCustom ("Crownest", new Dictionary<string, object> () {
+				//	{ "Time", timeInCrownest },
+				//	{ "Level", manager.Current.name }
+				//});
 			}
 		} 
 	}

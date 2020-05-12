@@ -80,7 +80,7 @@ public class PortlandShipYard : ShipYard {
 		PlayerPrefs.Save();
 
 		Upgrade (GameObject.FindGameObjectWithTag ("Player"));
-		Fabric.Answers.Answers.LogPurchase (price.Value, "EUR", true, "Crew", null, null, new Dictionary<string, object> () { {"Members", crew} });
+		//Fabric.Answers.Answers.LogPurchase (price.Value, "EUR", true, "Crew", null, null, new Dictionary<string, object> () { {"Members", crew} });
 		price.Pay();
 
 	}
@@ -91,7 +91,7 @@ public class PortlandShipYard : ShipYard {
 		PlayerPrefs.SetInt (KEY_HEALTH, health);
 		PlayerPrefs.Save();
 
-		Fabric.Answers.Answers.LogPurchase (price.Value, "EUR", true, "Crew", null, null, new Dictionary<string, object> () { {"Health", health} });
+		//Fabric.Answers.Answers.LogPurchase (price.Value, "EUR", true, "Crew", null, null, new Dictionary<string, object> () { {"Health", health} });
 		
 		price.Pay();
 		Upgrade (GameObject.FindGameObjectWithTag ("Player"));
@@ -105,7 +105,7 @@ public class PortlandShipYard : ShipYard {
 
 		var player = Upgrade (GameObject.FindGameObjectWithTag ("Player"));
 		player.GetComponentInChildren<Rigg> ().level = rig;
-		Fabric.Answers.Answers.LogPurchase (price.Value, "EUR", true, "Crew", null, null, new Dictionary<string, object> () { {"Rigg", rig} });
+		//Fabric.Answers.Answers.LogPurchase (price.Value, "EUR", true, "Crew", null, null, new Dictionary<string, object> () { {"Rigg", rig} });
 		
 		price.Pay();
 
@@ -120,7 +120,7 @@ public class PortlandShipYard : ShipYard {
 		var player = Upgrade (GameObject.FindGameObjectWithTag ("Player"));
 		foreach (var cannon in player.GetComponentsInChildren<Cannons>()) cannon.Recreate ();
 
-		Fabric.Answers.Answers.LogPurchase (price.Value, "EUR", true, "Crew", null, null, new Dictionary<string, object> () { {"Cannons", cannons} });
+		//Fabric.Answers.Answers.LogPurchase (price.Value, "EUR", true, "Crew", null, null, new Dictionary<string, object> () { {"Cannons", cannons} });
 		
 		price.Pay();
 

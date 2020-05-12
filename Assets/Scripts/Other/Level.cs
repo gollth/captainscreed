@@ -92,13 +92,13 @@ public class Level : MonoBehaviour {
 			callback:() => {
 				FinishLevel (manager.Current);	// cache in player prefs
 				manager.SlowDown (.2f);
-				Fabric.Answers.Answers.LogLevelEnd (manager.Current.name, statistics.Accuracy, true);
+				// Fabric.Answers.Answers.LogLevelEnd (manager.Current.name, statistics.Accuracy, true);
 		}));
 	}
 	void OnPlayerDestroyed () { 
 		StartCoroutine (WaitForEndOfGame(victory:false, callback:() => {
 			if (OnFinished != null)	OnFinished(false);
-			Fabric.Answers.Answers.LogLevelEnd (manager.Current.name, statistics.Accuracy, false);
+			// Fabric.Answers.Answers.LogLevelEnd (manager.Current.name, statistics.Accuracy, false);
 		}));
 	}
 

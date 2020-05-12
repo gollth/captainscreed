@@ -96,11 +96,11 @@ public abstract class Quest : MonoBehaviour {
 		if (Level.Shutdown || SceneChanger.ChangingLevel) return;
 		var manager = GameObject.FindGameObjectWithTag ("GameController").GetComponent<SceneChanger> ();
 
-		Fabric.Answers.Answers.LogCustom ("Quest Finished", new Dictionary<string, object> () {
-			{ "Quest", this.GetType().Name },
-			{ "Success", IsFulfilled },
-			{ "Level", manager.Current.name }
-		});
+		//Fabric.Answers.Answers.LogCustom ("Quest Finished", new Dictionary<string, object> () {
+		//	{ "Quest", this.GetType().Name },
+		//	{ "Success", IsFulfilled },
+		//	{ "Level", manager.Current.name }
+		//});
 	}
 
 	protected void UpdateMenu (params object[] values) {

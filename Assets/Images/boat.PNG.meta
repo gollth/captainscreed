@@ -1,20 +1,27 @@
 fileFormatVersion: 2
 guid: f62d994475909a2458dccd8c3c30414c
-timeCreated: 1457002390
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: boat_body
-    21300002: boat_sail_front
-    21300004: boat_sail_great
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: boat_body
+  - first:
+      213: 21300002
+    second: boat_sail_front
+  - first:
+      213: 21300004
+    second: boat_sail_great
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -23,37 +30,61 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: boat_body
+    - serializedVersion: 2
+      name: boat_body
       rect:
         serializedVersion: 2
         x: 0
@@ -63,50 +94,18 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5000001, y: 0.38935667}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 93.49998, y: -180.0485}
-        - {x: 98.49998, y: -146.0485}
-        - {x: 98.49998, y: -66.04849}
-        - {x: 96.49998, y: -48.048492}
-        - {x: 86.49998, y: 32.951508}
-        - {x: 71.49998, y: 116.95151}
-        - {x: 50.499977, y: 219.9515}
-        - {x: 25.499977, y: 306.9515}
-        - {x: 20.499977, y: 324.9515}
-        - {x: 10.499977, y: 346.9515}
-        - {x: 8.499977, y: 457.9515}
-        - {x: 7.499977, y: 491.9515}
-        - {x: 5.499977, y: 533.95154}
-        - {x: 8.499977, y: 568.95154}
-        - {x: 8.499977, y: 570.95154}
-        - {x: -7.500023, y: 570.95154}
-        - {x: -7.500023, y: 568.95154}
-        - {x: -5.500023, y: 554.95154}
-        - {x: -7.500023, y: 527.95154}
-        - {x: -11.500023, y: 474.9515}
-        - {x: -13.500023, y: 415.9515}
-        - {x: -12.500023, y: 344.9515}
-        - {x: -26.500023, y: 317.9515}
-        - {x: -32.500023, y: 297.9515}
-        - {x: -49.500023, y: 243.9515}
-        - {x: -62.500023, y: 183.9515}
-        - {x: -70.50002, y: 142.9515}
-        - {x: -80.50002, y: 82.95151}
-        - {x: -87.50002, y: 32.951508}
-        - {x: -94.50002, y: -31.048492}
-        - {x: -97.50002, y: -59.048492}
-        - {x: -97.50002, y: -144.0485}
-        - {x: -92.50002, y: -181.0485}
-        - {x: -87.50002, y: -214.0485}
-        - {x: -73.50002, y: -297.0485}
-        - {x: -69.50002, y: -334.0485}
-        - {x: -68.50002, y: -359.0485}
-        - {x: -67.50002, y: -364.0485}
-        - {x: 64.49998, y: -364.0485}
-        - {x: 65.49998, y: -363.0485}
-        - {x: 73.49998, y: -292.0485}
-        - {x: 87.49998, y: -217.0485}
-    - name: boat_sail_front
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_sail_front
       rect:
         serializedVersion: 2
         x: 292
@@ -116,14 +115,18 @@ TextureImporter:
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 3, y: 78}
-        - {x: 3, y: -78}
-        - {x: 40, y: -78}
-        - {x: 64, y: -53}
-        - {x: 64, y: 47}
-        - {x: 47, y: 78}
-    - name: boat_sail_great
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_sail_great
       rect:
         serializedVersion: 2
         x: 271
@@ -133,21 +136,29 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.17071201, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 67.75809, y: 170.5}
-        - {x: 11.758087, y: 170.5}
-        - {x: -17.241913, y: 155.5}
-        - {x: -17.241913, y: 128.5}
-        - {x: -0.24191284, y: -7.5}
-        - {x: -17.241913, y: -110.5}
-        - {x: -17.241913, y: -152.5}
-        - {x: 15.758087, y: -169.5}
-        - {x: 60.758087, y: -169.5}
-        - {x: 66.75809, y: -159.5}
-        - {x: 81.75809, y: -64.5}
-        - {x: 81.75809, y: 60.5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

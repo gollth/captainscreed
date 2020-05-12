@@ -67,11 +67,11 @@ public class Crew : MonoBehaviour {
 
 		if (!apply) return;
 
-		Fabric.Answers.Answers.LogCustom ("Crew Order", new Dictionary<string, object> () {
-			{ "Thrusters", Thrusters / amount },
-			{ "Repairers", Repairers / amount },
-			{ "Reloaders", Reloaders / amount }
-		});
+		//Fabric.Answers.Answers.LogCustom ("Crew Order", new Dictionary<string, object> () {
+		//	{ "Thrusters", Thrusters / amount },
+		//	{ "Repairers", Repairers / amount },
+		//	{ "Reloaders", Reloaders / amount }
+		//});
 
 		steerman.sailorBoost         = thrusters * thrustPerSailor;
 		ship.repairsPerSecond        = repairers * repairsPerSailor;
