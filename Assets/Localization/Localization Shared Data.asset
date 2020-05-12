@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
   m_Name: Localization Shared Data
   m_EditorClassIdentifier: 
-  m_NextAvailableId: 3
+  m_NextAvailableId: 12
   m_TableName: Localization
   m_TableNameGuidString: 7a30779fcc3f00b4fae0af322ba48ff8
   m_Entries:
@@ -22,6 +22,42 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 2
     m_Key: workshop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3
+    m_Key: gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Key: crew
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Key: ship
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6
+    m_Key: rigg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7
+    m_Key: cannons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8
+    m_Key: crew.summary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9
+    m_Key: ship.summary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10
+    m_Key: rigg.summary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Key: cannons.summary
     m_Metadata:
       m_Items: []
   m_Metadata:

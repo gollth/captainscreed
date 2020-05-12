@@ -4639,11 +4639,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 735850638}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41e20ceda4b48454eb8ef93d80d9ecce, type: 3}
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: title.upgrades.crew.description
-  text: {fileID: 0}
+  m_StringReference:
+    m_TableReference:
+      m_TableName: GUID:7a30779fcc3f00b4fae0af322ba48ff8
+    m_TableEntryReference:
+      m_KeyId: 8
+      m_Key: 
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 735850641}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &735850641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5547,11 +5566,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 853339348}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41e20ceda4b48454eb8ef93d80d9ecce, type: 3}
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: title.upgrades.cannons
-  text: {fileID: 0}
+  m_StringReference:
+    m_TableReference:
+      m_TableName: GUID:7a30779fcc3f00b4fae0af322ba48ff8
+    m_TableEntryReference:
+      m_KeyId: 7
+      m_Key: 
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 853339351}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &853339351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6535,11 +6573,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 927768019}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41e20ceda4b48454eb8ef93d80d9ecce, type: 3}
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: title.upgrades.ship
-  text: {fileID: 0}
+  m_StringReference:
+    m_TableReference:
+      m_TableName: GUID:7a30779fcc3f00b4fae0af322ba48ff8
+    m_TableEntryReference:
+      m_KeyId: 5
+      m_Key: 
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 927768022}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &927768022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7188,7 +7245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.07352942, g: 0.07352942, b: 0.07352942, a: 1}
+  m_Color: {r: 0.07450981, g: 0.07450981, b: 0.07450981, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -7207,9 +7264,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '
-
-'
+  m_Text: Werft
 --- !u!222 &1166524621
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7880,11 +7935,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 1344410998}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41e20ceda4b48454eb8ef93d80d9ecce, type: 3}
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: title.upgrades.rigg.description
-  text: {fileID: 0}
+  m_StringReference:
+    m_TableReference:
+      m_TableName: GUID:7a30779fcc3f00b4fae0af322ba48ff8
+    m_TableEntryReference:
+      m_KeyId: 10
+      m_Key: 
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1344411001}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1344411001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8379,11 +8453,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 1437179572}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41e20ceda4b48454eb8ef93d80d9ecce, type: 3}
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: title.upgrades.cannons.description
-  text: {fileID: 0}
+  m_StringReference:
+    m_TableReference:
+      m_TableName: GUID:7a30779fcc3f00b4fae0af322ba48ff8
+    m_TableEntryReference:
+      m_KeyId: 11
+      m_Key: 
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1437179575}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1437179575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11111,11 +11204,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 1806220513}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41e20ceda4b48454eb8ef93d80d9ecce, type: 3}
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: title.upgrades.rigg
-  text: {fileID: 0}
+  m_StringReference:
+    m_TableReference:
+      m_TableName: GUID:7a30779fcc3f00b4fae0af322ba48ff8
+    m_TableEntryReference:
+      m_KeyId: 6
+      m_Key: 
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1806220516}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1806220516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12424,11 +12536,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 2011029870}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41e20ceda4b48454eb8ef93d80d9ecce, type: 3}
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: title.upgrades.ship.description
-  text: {fileID: 0}
+  m_StringReference:
+    m_TableReference:
+      m_TableName: GUID:7a30779fcc3f00b4fae0af322ba48ff8
+    m_TableEntryReference:
+      m_KeyId: 9
+      m_Key: 
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2011029873}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2011029873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13158,11 +13289,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 2089791023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41e20ceda4b48454eb8ef93d80d9ecce, type: 3}
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: title.upgrades.crew
-  text: {fileID: 0}
+  m_StringReference:
+    m_TableReference:
+      m_TableName: GUID:7a30779fcc3f00b4fae0af322ba48ff8
+    m_TableEntryReference:
+      m_KeyId: 4
+      m_Key: 
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2089791026}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2089791026
 MonoBehaviour:
   m_ObjectHideFlags: 0

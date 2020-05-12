@@ -26,5 +26,41 @@ MonoBehaviour:
     m_Localized: Workshop
     m_Metadata:
       m_Items: []
+  - m_Id: 3
+    m_Localized: Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Localized: Crew
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Localized: Ship
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6
+    m_Localized: Rigg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7
+    m_Localized: Cannons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8
+    m_Localized: Amount of sailors abord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9
+    m_Localized: Resistance against hits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10
+    m_Localized: maneuverability of the ship
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Localized: Amount of cannons on each broadside
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

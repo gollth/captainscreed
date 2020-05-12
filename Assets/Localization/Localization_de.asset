@@ -26,5 +26,42 @@ MonoBehaviour:
     m_Localized: Werft
     m_Metadata:
       m_Items: []
+  - m_Id: 3
+    m_Localized: Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Localized: Mannschaft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Localized: Schiff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6
+    m_Localized: Segel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7
+    m_Localized: Kanonen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8
+    m_Localized: Heuere neue Matrosen an
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9
+    m_Localized: "Erh\xF6he die Widerstands-kraft gegen Treffer, aber verringert
+      die Geschwindigkeit um 10%"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10
+    m_Localized: "Erh\xF6he die Geschwindigkeit des Schiffes um 10%"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Localized: "Kaufe mehr Kanonen f\xFCr eure Breitseite"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
