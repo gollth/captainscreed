@@ -94,6 +94,7 @@ public class Generator : MonoBehaviour {
 
 	void ShowSamples ()
 	{
+		if (DebugSamples == null) return;
 		for (int y = 0; y < resolution; y++) {
 			for (int x = 0; x < resolution; x++) {
 				Tex.SetPixel (x, y, coloring.Evaluate (DebugSamples [x, y]));
